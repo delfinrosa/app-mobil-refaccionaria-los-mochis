@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.Registrar.Fotos.EscribirCodigoBarras"
+             Title="EscribirCodigoBarras"
+             BackgroundColor="#124734">
+
+    <VerticalStackLayout>
+        <Label 
+            Text="Fotos"
+            VerticalOptions="Center" 
+            FontSize="22"
+           FontAttributes="Bold"
+           TextColor="White"
+            HorizontalOptions="Center"
+            Margin="20,40,20,0"
+            />
+        <Label 
+            Text="Leer codigo de barras con LETRAS"
+            VerticalOptions="Center" 
+            FontSize="22"
+           FontAttributes="Bold"
+           TextColor="White"
+            HorizontalOptions="Center"
+            Margin="20,40,20,0"
+            />
+        <Frame 
+            BorderColor="#FCC208"
+            Margin="20,10"
+            Padding="3"
+            BackgroundColor="Gray">
+            <Entry 
+                x:Name="entry"  
+                Placeholder="Introduce texto"
+                BackgroundColor="Gray"
+                TextColor="White"
+                Background="Gray"
+                PlaceholderColor="White"
+                
+                />
+        </Frame>
+
+        <!--<HorizontalStackLayout>
+            <CheckBox x:Name="delayCheckBox" />
+            <Label Text="30 segundos de espera" VerticalOptions="Center"/>
+        </HorizontalStackLayout>-->
+
+        <Button Text="Buscar" 
+                Clicked="Buscar_Clicked" 
+                Margin="20,10"
+                BackgroundColor="Gray"
+                TextColor="White"
+                BorderColor="#FCC208"/>
+
+        <Label 
+            Text="Leer codigo de barras con NUMEROS"
+            VerticalOptions="Center" 
+           FontAttributes="Bold"
+           TextColor="White"
+            HorizontalOptions="Center" Margin="20,40,20,0"
+            FontSize="22"/>
+
+        <Frame
+            BorderColor="#FCC208"
+            Margin="20,10"
+            Padding="3"
+            BackgroundColor="Gray">
+            <Entry 
+                x:Name="entrynumeros"
+                Keyboard="Numeric" 
+                Placeholder="Introduce texto"
+                BackgroundColor="Gray"
+                TextColor="White"
+                Background="Gray"
+                PlaceholderColor="White"
+                
+            />
+        </Frame>
+
+
+        <!--<HorizontalStackLayout>
+            <CheckBox x:Name="delayCheckBox" />
+            <Label Text="30 segundos de espera" VerticalOptions="Center"/>
+        </HorizontalStackLayout>-->
+
+        <Button 
+            Text="Buscar con numeros"
+            Clicked="Button_Clicked_1" 
+            Margin="20,10"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"/>
+
+
+        <Button 
+            Text="Regresar" 
+            Clicked="Button_Clicked" 
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"
+            Margin="20,120,20,0"/>
+    </VerticalStackLayout>
+</ContentPage>

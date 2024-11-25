@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Refaccionaria_los_Mochis.Models"
+             x:Class="Refaccionaria_los_Mochis.Pages.InitialPage"
+             Title="Inicio"
+             BackgroundColor="#124734">
+
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="20">
+
+            <!-- Encabezado de Bienvenida -->
+            <Label 
+                Text="Inventario"
+                FontSize="28"
+                FontAttributes="Bold"
+                TextColor="White"
+                HorizontalOptions="Center" />
+            <!-- Resumen de Inventario -->
+            <Frame BackgroundColor="Gray"
+                   BorderColor="White"
+                   CornerRadius="10"
+                   Padding="10"
+                   HasShadow="True">
+                <Grid ColumnDefinitions="*,*" RowDefinitions="Auto">
+                    <!-- Primera columna: Resumen de Inventario -->
+                    <StackLayout Grid.Column="0" Padding="10">
+                        <Label 
+            Text="Resumen de Inventario"
+            FontSize="24"
+            TextColor="Black"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+                        <Label 
+            x:Name="TotalProductosLabel"
+            Text="Productos Totales: 0"
+            FontSize="22"
+            TextColor="Black" />
+
+                        <Label 
+            x:Name="BajoStockLabel"
+            Text="Bajo Stock: 0"
+            FontSize="22"
+            TextColor="Red" />
+
+                        <Label 
+            x:Name="MedioStockLabel"
+            Text="Medio Stock: 0"
+            FontSize="22"
+            TextColor="#FCC208" />
+
+                        <Label 
+            x:Name="AltoStockLabel"
+            Text="Alto Stock: 0"
+            FontSize="22"
+            TextColor="#124734" />
+                    </StackLayout>
+
+                    <!-- Segunda columna: Botones -->
+                    <StackLayout Grid.Column="1" Padding="10" Spacing="15" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Button 
+            x:Name="BajoButton" 
+            Text="Bajo" 
+            FontSize="20" 
+            BackgroundColor="Gray" 
+            TextColor="White" 
+            BorderColor="#FCC208" 
+            BorderWidth="2"
+            CornerRadius="5"
+            Clicked="BajoButton_Clicked" />
+
+                        <Button 
+            x:Name="MedioButton" 
+            Text="Medio" 
+            FontSize="20" 
+            BackgroundColor="Gray" 
+            TextColor="White" 
+            BorderColor="#FCC208" 
+            BorderWidth="2"
+            CornerRadius="5"
+            Clicked="MedioButton_Clicked" />
+
+                        <Button 
+            x:Name="BienButton" 
+            Text="Bien" 
+            FontSize="20" 
+            BackgroundColor="Gray" 
+            TextColor="White" 
+            BorderColor="#FCC208" 
+            BorderWidth="2"
+            CornerRadius="5"
+            Clicked="BienButton_Clicked" />
+                    </StackLayout>
+                </Grid>
+
+            </Frame>
+
+            <Frame BackgroundColor="Gray"
+       BorderColor="White"
+       CornerRadius="10"
+       Padding="10"
+       HasShadow="True" x:Name="ContainerElement" IsVisible="False">
+
+                <!-- Contenedor Principal -->
+                <StackLayout Spacing="10">
+
+                    <!-- Tipo de Stock -->
+                    <StackLayout Orientation="Vertical"
+                     Spacing="10"
+                     Padding="10"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                        <Label 
+                x:Name="TIPOSTOCK"
+                Text=""
+                FontSize="24"
+                TextColor="White"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+                    </StackLayout>
+
+                    <!-- ScrollView para los Elementos -->
+                    <ScrollView VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="10">
+                        <StackLayout x:Name="ScrollContent" Spacing="10" >
+                        </StackLayout>
+                    </ScrollView>
+
+                    <!-- Botones de Navegación -->
+                    <StackLayout Orientation="Horizontal"
+                     Spacing="15"
+                     Padding="10"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                        <Button x:Name="ANTERIOR" Text="&lt;" FontSize="22" BackgroundColor="Gray" TextColor="White" BorderColor="#FCC208" Clicked="ANTERIORButton_Clicked"  />
+                        <Button x:Name="SIGUIENTE" Text="&gt;" FontSize="22" BackgroundColor="Gray" TextColor="White" BorderColor="#FCC208" Clicked="SIGUIENTEButton_Clicked"   />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+
+            <ScrollView>
+                <StackLayout Padding="10" Spacing="20">
+
+                    <!-- Encabezado de Bienvenida -->
+                    <Label 
+                Text="Refaccionaria Los Mochis"
+                FontSize="24"
+                FontAttributes="Bold"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+                    <!-- Resumen de Compras -->
+                    <Frame BackgroundColor="Gray"
+                   BorderColor="White"
+                   CornerRadius="10"
+                   Padding="10"
+                   HasShadow="True">
+                        <StackLayout>
+                            <Label 
+                        Text="Reporte de Compras"
+                        FontSize="22"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center" />
+
+                            <!-- Lista Dinámica -->
+                            <CollectionView x:Name="ComprasCollectionView"
+                                    Margin="0,10,0,0"
+                                    BackgroundColor="Transparent">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Frame BackgroundColor="Gray" BorderColor="White" CornerRadius="10" Padding="10" Margin="0,5">
+                                            <StackLayout>
+                                                <Label Text="{Binding Item1}" 
+                                               FontSize="16" 
+                                               TextColor="White"
+                                               FontAttributes="Bold" />
+                                                <Label Text="{Binding Item2}" 
+                                               FontSize="14" 
+                                               TextColor="White" />
+                                                <Label Text="{Binding Item3}" 
+                                               FontSize="14" 
+                                               TextColor="White" />
+                                                <Label Text="{Binding Item4}" 
+                                               FontSize="14" 
+                                               TextColor="White" />
+                                            </StackLayout>
+                                        </Frame>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

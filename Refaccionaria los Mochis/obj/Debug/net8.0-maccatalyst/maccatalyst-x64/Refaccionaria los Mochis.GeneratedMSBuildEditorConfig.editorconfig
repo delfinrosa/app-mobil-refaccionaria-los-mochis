@@ -1,0 +1,293 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Refaccionaria_los_Mochis
+build_property.ProjectDir = C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Code128.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Code128.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Code128.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Code128.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Code39.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Code39.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Code39.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Code39.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Compra/CompraDetallesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Compra.CompraDetallesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Compra\CompraDetallesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Compra\CompraDetallesPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Compra/ProductosSinCantidadPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Compra.ProductosSinCantidadPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Compra\ProductosSinCantidadPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Compra\ProductosSinCantidadPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/ConfirmarCodigoBarrasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.ConfirmarCodigoBarrasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ConfirmarCodigoBarrasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ConfirmarCodigoBarrasPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/converidor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.converidor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\converidor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\converidor.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/CrearProducto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.CrearProducto.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CrearProducto.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CrearProducto.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Detalles/DetalleProductoNoParteMarca.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Detalles.DetalleProductoNoParteMarca.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Detalles\DetalleProductoNoParteMarca.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Detalles\DetalleProductoNoParteMarca.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/EntryChange.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.EntryChange.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EntryChange.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EntryChange.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/InitialPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.InitialPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\InitialPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\InitialPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/LeerProducto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.LeerProducto.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LeerProducto.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LeerProducto.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/LeerProductoInsert.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.LeerProductoInsert.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LeerProductoInsert.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LeerProductoInsert.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.login.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\login.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\login.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Mantenimiento/DetalleEquipo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Mantenimiento.DetalleEquipo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mantenimiento\DetalleEquipo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mantenimiento\DetalleEquipo.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Mantenimiento/DiasFaltantes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Mantenimiento.DiasFaltantes.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mantenimiento\DiasFaltantes.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mantenimiento\DiasFaltantes.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Mantenimiento/LectorCodigoManteniemiento.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Mantenimiento.LectorCodigoManteniemiento.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mantenimiento\LectorCodigoManteniemiento.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mantenimiento\LectorCodigoManteniemiento.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Mantenimiento/MantenimientoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Mantenimiento.MantenimientoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mantenimiento\MantenimientoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mantenimiento\MantenimientoPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MenuPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/PDF/Menu/MenuPDF.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.PDF.Menu.MenuPDF.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PDF\Menu\MenuPDF.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PDF\Menu\MenuPDF.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/PDF/Menu/PrincipalMenuPDF.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.PDF.Menu.PrincipalMenuPDF.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PDF\Menu\PrincipalMenuPDF.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PDF\Menu\PrincipalMenuPDF.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/PDF/Menu/PrincipalPDF.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.PDF.Menu.PrincipalPDF.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PDF\Menu\PrincipalPDF.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PDF\Menu\PrincipalPDF.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/PDF/Menu/VisualizaPDF.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.PDF.Menu.VisualizaPDF.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PDF\Menu\VisualizaPDF.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PDF\Menu\VisualizaPDF.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/PrincipalPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.PrincipalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PrincipalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PrincipalPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/ProductoDetallesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.ProductoDetallesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProductoDetallesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProductoDetallesPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/ProductosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.ProductosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProductosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProductosPage.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Registrar/Fotos/BuscarCodigoBarras.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Registrar.Fotos.BuscarCodigoBarras.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Registrar\Fotos\BuscarCodigoBarras.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Registrar\Fotos\BuscarCodigoBarras.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Registrar/Fotos/ConfirmarElemento.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Registrar.Fotos.ConfirmarElemento.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Registrar\Fotos\ConfirmarElemento.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Registrar\Fotos\ConfirmarElemento.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Registrar/Fotos/EscribirCodigoBarras.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Registrar.Fotos.EscribirCodigoBarras.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Registrar\Fotos\EscribirCodigoBarras.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Registrar\Fotos\EscribirCodigoBarras.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Registrar/Fotos/TomarFoto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Registrar.Fotos.TomarFoto.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Registrar\Fotos\TomarFoto.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Registrar\Fotos\TomarFoto.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Registrar/RegistrarMarca.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Registrar.RegistrarMarca.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Registrar\RegistrarMarca.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Registrar\RegistrarMarca.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Reportes/Code93.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Reportes.Code93.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Reportes\Code93.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Reportes\Code93.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Reportes/LectorCodigoRack.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Reportes.LectorCodigoRack.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Reportes\LectorCodigoRack.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Reportes\LectorCodigoRack.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Reportes/ReporteCompraPDF.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Reportes.ReporteCompraPDF.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Reportes\ReporteCompraPDF.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Reportes\ReporteCompraPDF.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Reportes/ReporteNoParteBoton.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Reportes.ReporteNoParteBoton.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Reportes\ReporteNoParteBoton.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Reportes\ReporteNoParteBoton.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Reportes/ReporteProductosRack.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Reportes.ReporteProductosRack.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Reportes\ReporteProductosRack.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Reportes\ReporteProductosRack.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Reportes/ReporteUltimosRegistros.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Reportes.ReporteUltimosRegistros.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Reportes\ReporteUltimosRegistros.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Reportes\ReporteUltimosRegistros.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/Reportes/VerificarCodigoBarras.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.Reportes.VerificarCodigoBarras.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Reportes\VerificarCodigoBarras.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Reportes\VerificarCodigoBarras.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/ReporteWagner.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.ReporteWagner.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ReporteWagner.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ReporteWagner.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Pages/ScanQR.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Pages.ScanQR.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ScanQR.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ScanQR.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Resources/Raw/pdfjs/web/debugger.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Resources.Raw.pdfjs.web.debugger.css
+build_metadata.AdditionalFiles.TargetPath = Resources\Raw\pdfjs\web\debugger.css
+build_metadata.AdditionalFiles.RelativePath = Resources\Raw\pdfjs\web\debugger.css
+
+[C:/RefaccionariaLosMochis/Segunda Pantalla/Segunda Pantalla/Segunda Pantalla/Refaccionaria los Mochis/Resources/Raw/pdfjs/web/viewer.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = Refaccionaria_los_Mochis.Resources.Raw.pdfjs.web.viewer.css
+build_metadata.AdditionalFiles.TargetPath = Resources\Raw\pdfjs\web\viewer.css
+build_metadata.AdditionalFiles.RelativePath = Resources\Raw\pdfjs\web\viewer.css

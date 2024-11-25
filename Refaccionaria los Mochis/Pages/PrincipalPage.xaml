@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Refaccionaria_los_Mochis.Pages"
+             x:Class="Refaccionaria_los_Mochis.Pages.PrincipalPage"
+             Title="PrincipalPage">
+  
+    <FlyoutPage.Flyout>
+        <pages:MenuPage></pages:MenuPage>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+            <NavigationPage x:Name="Navigate">
+            <x:Arguments>
+            
+                <pages:InitialPage></pages:InitialPage>
+            
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

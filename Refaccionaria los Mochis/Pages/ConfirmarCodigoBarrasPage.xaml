@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.ConfirmarCodigoBarrasPage"
+             Title="ConfirmarCodigoBarrasPage"
+             BackgroundColor="#124734">
+    <VerticalStackLayout>
+        <Label Text="Seleccione el código de barras correcto:" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               FontSize="28"
+               TextColor="White"
+               FontAttributes="Bold"
+               Margin="50"/>
+
+        <Button x:Name="btnCodigoConCero" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="28" 
+                Margin="50"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"/>
+
+        <Button x:Name="btnCodigoSinCero" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="28" 
+                Margin="50"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"/>
+    </VerticalStackLayout>
+</ContentPage>

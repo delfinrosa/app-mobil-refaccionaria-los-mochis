@@ -1,0 +1,36 @@
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\RefaccionariaLosMochis\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\RefaccionariaLosMochis\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\RefaccionariaLosMochis\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\RefaccionariaLosMochis\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\RefaccionariaLosMochis\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\RefaccionariaLosMochis\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\delfi\OneDrive\Escritorio\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Luis\Desktop\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Luis\Desktop\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Luis\Desktop\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Luis\Desktop\Refaccionaria(LosMochis)\Aplicaciones Mobiles\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Luis\Desktop\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Luis\Desktop\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Luis\Desktop\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Luis\Desktop\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\delfi\OneDrive\Escritorio\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\delfi\OneDrive\Escritorio\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\delfi\OneDrive\Escritorio\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\delfi\OneDrive\Escritorio\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\delfi\OneDrive\Escritorio\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\delfi\OneDrive\Escritorio\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\CapaEntidad\obj\Debug\CapaEntidad.pdb

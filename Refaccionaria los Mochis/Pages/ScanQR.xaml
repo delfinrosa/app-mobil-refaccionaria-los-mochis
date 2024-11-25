@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.ScanQR"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.Maui"
+             xmlns:models="clr-namespace:Refaccionaria_los_Mochis.Models"
+             Title="ScanQR"
+             BackgroundColor="#124734">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center"
+        >
+
+
+        <Label 
+            Text="Muestre el Código QR de la Compra"
+           FontSize="28"
+           FontAttributes="Bold"
+           TextColor="White"
+           HorizontalOptions="Center" />
+
+
+
+        <Frame
+            BorderColor="Transparent"
+            Padding="0"
+            Margin="0"
+            BackgroundColor="#124734">
+            <zxing:CameraBarcodeReaderView
+             WidthRequest="300"
+             HeightRequest="300"
+             x:Name="detectorImagen"
+             BarcodesDetected="detectorImagen_BarcodesDetected"
+            />
+        </Frame>
+
+            <Button
+            x:Name="btnRegresar"
+            Clicked="btnRegresar_Clicked"
+            Text="Regresar"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"
+            BorderWidth="2"
+            CornerRadius="5"
+            Margin="0,0,0,30" />
+
+
+    </VerticalStackLayout>
+</ContentPage>

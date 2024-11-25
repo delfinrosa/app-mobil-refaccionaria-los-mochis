@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.ProductosPage"
+             Title="ProductosPage">
+    <ScrollView>
+        <VerticalStackLayout
+           Padding="30,0"
+           Spacing="25"
+           VerticalOptions="CenterAndExpand">
+
+            <ListView x:Name="productosListView"
+                     ItemsSource="{Binding oProductoModel.lista}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Descripcion}" Detail="{Binding IdProducto}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Text="Regresar" Clicked="toolbarItemRegresar_Clicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

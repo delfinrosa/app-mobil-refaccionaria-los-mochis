@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.converidor"
+             Title="converidor"
+             BackgroundColor="#124734">
+    <StackLayout Padding="30">
+        <Label Text="Precio" FontSize="22" 
+          FontAttributes="Bold"
+          TextColor="White"
+           Margin="20,40,20,0"
+           />
+        <Frame 
+            BorderColor="#FCC208"
+            Margin="20,10"
+            Padding="3"
+            BackgroundColor="Gray"
+            >
+            <Entry 
+                x:Name="textBox1" 
+                Placeholder="Ingrese el precio" 
+                TextChanged="textBox1_TextChanged" 
+                Keyboard="Numeric" 
+                FontSize="22"
+                BackgroundColor="Gray"
+                TextColor="White"
+                Background="Gray"
+                PlaceholderColor="White"
+            />
+        </Frame>
+
+        <Label Text="Porcentaje de Ganancia" FontSize="22"
+          FontAttributes="Bold"
+          TextColor="White"
+           Margin="20,40,20,0"
+           />
+        <Frame 
+            BorderColor="#FCC208"
+            Margin="20,10"
+            Padding="3"
+            BackgroundColor="Gray"
+            >
+            <Entry 
+                x:Name="textBox2" 
+                Placeholder="Ingrese el porcentaje de ganancia" 
+                TextChanged="textBox2_TextChanged" 
+                Keyboard="Numeric" 
+                FontSize="22"
+                BackgroundColor="Gray"
+                TextColor="White"
+                Background="Gray"
+                PlaceholderColor="White"
+            />
+        </Frame>
+        <Button 
+            Text="Convertir" 
+            Clicked="BtnConvertir_Clicked" 
+            FontSize="22" 
+            Margin="20,10"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"/>
+        
+        <Label 
+            x:Name="lblResultado" 
+            Text="" 
+            TextColor="White" 
+            FontSize="22" 
+            FontAttributes="Bold"
+            />
+        <Button 
+            Text="Regresar" 
+            Clicked="Button_Clicked"
+            Margin="100,20,0,0"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"
+            />
+
+    </StackLayout>
+</ContentPage>

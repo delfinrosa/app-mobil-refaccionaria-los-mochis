@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.ProductoDetallesPage"
+             Title="ProductoDetallesPage">
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="Descripción" FontSize="Medium" />
+            <Label Text="{Binding Descripcion}" FontSize="Large" />
+
+            <Label Text="ID Producto" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding IdProducto}" FontSize="Large" />
+
+            <!-- Agregar las demás propiedades del producto aquí -->
+            <Label Text="Precio" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding Precio}" FontSize="Large" />
+
+            <Label Text="Mínimo" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding Minimo}" FontSize="Large" />
+
+            <Label Text="Máximo" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding Maximo}" FontSize="Large" />
+
+            <Label Text="Código de Barras" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding CodigoBarras}" FontSize="Large" />
+
+            <Label Text="Número de Parte" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding NoParte}" FontSize="Large" />
+
+            <Label Text="Marca" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding oMarca.Descripcion}" FontSize="Large" />
+
+            <Label Text="Línea" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding oLinea.Descripcion}" FontSize="Large" />
+
+            <Label Text="Almacén" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding oAlmacen.Ubicacion}" FontSize="Large" />
+
+            <Label Text="Rack" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding oRack.Ubicacion}" FontSize="Large" />
+
+            <Label Text="Sección" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding oSeccion.Ubicacion}" FontSize="Large" />
+
+            <Label Text="Valor" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding Valor}" FontSize="Large" />
+
+            <Label Text="Activo" FontSize="Medium" Margin="0,10,0,0" />
+            <Label Text="{Binding Activo}" FontSize="Large" />
+
+            <Button
+                x:Name="btnLectorCodigo"
+                Clicked="btnLectorCodigo_Clicked"
+                Text="LectorCodigo" Margin="0,30"
+                />
+            <Button
+                x:Name="btnRegresar"
+                Clicked="btnRegresar_Clicked"
+                Text="Regresar" Margin="0,0,0,30"
+                />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

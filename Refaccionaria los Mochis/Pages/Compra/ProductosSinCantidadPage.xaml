@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.Compra.ProductosSinCantidadPage"
+             Title="Productos Sin Cantidad"
+             BackgroundColor="#124734">
+    <ContentPage.Content>
+        <ScrollView Padding="10">
+            <StackLayout>
+                <Label Text="Productos Sin Cantidad"
+                       FontSize="Large"
+                       HorizontalOptions="Center" TextColor="White"
+                       Margin="0,10,0,20" />
+
+                <!-- CollectionView -->
+                <CollectionView x:Name="ProductosCollectionView"
+                                VerticalOptions="FillAndExpand"
+                                Margin="0,10,0,10">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="10" ColumnDefinitions="*,*">
+                                <Label Grid.Column="0"
+                                       Text="{Binding oProductoProveedor.oProducto.NoParte}"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="StartAndExpand" TextColor="White"
+                                       FontSize="20" />
+                                <Label Grid.Column="0"
+                                       Text="{Binding CompraDtlId}"  TextColor="White"
+                                       IsVisible="False"  />
+                                <Frame 
+                                    BorderColor="#FCC208"
+                                    Margin="20,10"
+                                    Padding="3" Grid.Column="2"
+                                    BackgroundColor="Gray">
+                                    <Entry Grid.Column="1"
+                                      Placeholder="Ingrese cantidad"
+                                      Keyboard="Numeric"
+                                      VerticalOptions="Center"
+                                      HorizontalOptions="EndAndExpand"
+                                      FontSize="20"  BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"
+                                      Text="{Binding CantidadEntrada}" />
+                                </Frame>
+
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <!-- Botón de guardar -->
+                <Button
+                    x:Name="btnGuardarProductos"
+                    Text="Guardar"
+                    Clicked="btnGuardarProductos_Clicked"  BackgroundColor="Gray" TextColor="White" BorderColor="#FCC208"
+                    Margin="10"/>
+                <Button x:Name="btnRegresar" Clicked="btnRegresar_Clicked" Text="Regresar" Margin="15" FontSize="22"  BackgroundColor="Gray" TextColor="White" BorderColor="#FCC208"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

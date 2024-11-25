@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.Reportes.LectorCodigoRack"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.Maui"
+             Title="LectorCodigoRack"
+             BackgroundColor="#124734">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+
+            <Label 
+           Text="Muestre el Código QR Del Rack"
+           FontAttributes="Bold" FontSize="22" Margin="10" TextColor="White" HorizontalOptions="Center" />
+
+
+            <Frame
+            BorderColor="Transparent"
+            Padding="0"
+            Margin="0"
+            BackgroundColor="#124734">
+                <zxing:CameraBarcodeReaderView
+            x:Name="detectorImagen"
+               WidthRequest="450"
+               HeightRequest="450"
+            BarcodesDetected="detectorImagen_BarcodesDetected"
+               IsEnabled="True" 
+               Margin="5,5"
+                />
+            </Frame>
+
+            <Grid ColumnDefinitions="*, Auto,auto" RowDefinitions="Auto" Margin="0,10,0,0">
+                <Frame 
+                    BorderColor="#FCC208"
+                    Margin="20,10"
+                    Padding="3"
+                    BackgroundColor="Gray">
+                    <Entry x:Name="BusquedaRackEntry" Text="" Placeholder="Ingrese término de búsqueda" Grid.Column="0" FontSize="22 "  BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"/>
+                </Frame>
+                <Button x:Name="BtnRackBusqueda" Text="Buscar" Clicked="BtnRackBusqueda_Clicked" Grid.Column="1" FontSize="22" BackgroundColor="Gray" TextColor="White" BorderColor="#FCC208" />
+            </Grid>
+            <ListView x:Name="RacksListView" ItemSelected="RacksListView_ItemSelected" BackgroundColor="Gray" SeparatorColor="#FCC208" WidthRequest="420" HorizontalOptions="Start" Margin="30,0"   >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell TextColor="White" Text="{Binding Ubicacion}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout  Margin="0,0"  >
+                <Button
+           x:Name="btnRegresar"
+           Clicked="btnRegresar_Clicked"
+           Text="Regresar"  FontSize="22" BackgroundColor="Gray" TextColor="White" BorderColor="#FCC208" 
+           />
+            </StackLayout>
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

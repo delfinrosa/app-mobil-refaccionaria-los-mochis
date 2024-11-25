@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.Registrar.RegistrarMarca"
+             Title="RegistrarMarca"
+             BackgroundColor="#124734">
+    <VerticalStackLayout>
+        <Label 
+            Text="Nombre de la marca"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" FontSize="28" 
+            FontAttributes="Bold"
+            TextColor="White"
+           Margin="20,40,20,0" />
+
+        <Frame 
+            BorderColor="#FCC208"
+            Margin="20,10"
+            Padding="3"
+            BackgroundColor="Gray"
+            >
+
+        <Entry x:Name="MarcaEntry" Placeholder="Nombre de la marca"  
+               FontSize="22"
+                BackgroundColor="Gray"
+                TextColor="White"
+                Background="Gray"
+                PlaceholderColor="White"
+               />
+        </Frame>
+        <Button x:Name="BtnRegistrarMarca" Text="Guardar" Clicked="BtnRegistrarMarca_Clicked" FontSize="22" 
+            Margin="20,30"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"/>
+        <Button x:Name="BtnRegresar" Text="Regresar" Clicked="BtnRegresar_Clicked" FontSize="22" 
+            Margin="20,30"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="#FCC208"/>
+    </VerticalStackLayout>
+</ContentPage>

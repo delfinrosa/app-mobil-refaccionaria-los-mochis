@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.Mantenimiento.MantenimientoPage"
+             Title="MantenimientoPage"
+             BackgroundColor="#124734">
+
+
+    <StackLayout Padding="10" Spacing="10">
+        <!-- Etiqueta del nombre del equipo -->
+        <Label x:Name="lblEquipo" 
+               Text="Equipo: " 
+               FontSize="28" 
+               FontAttributes="Bold" 
+           TextColor="White"
+           HorizontalOptions="Center" />
+
+        <!-- Limpieza -->
+        <StackLayout Orientation="Horizontal" Spacing="5">
+            <Label Text="Limpieza" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center" />
+            <CheckBox x:Name="chkLimpieza" Color="#FCC208"  />
+        </StackLayout>
+
+        <!-- Fallo -->
+        <StackLayout Orientation="Horizontal" Spacing="5">
+            <Label Text="Falla" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"  />
+            <CheckBox x:Name="chkFallo" Color="#FCC208"  />
+        </StackLayout>
+
+        <!-- Observaciones -->
+        <Label Text="Observaciones"  TextColor="White"   />
+        <Frame 
+                    BorderColor="#FCC208"
+                    Margin="20,10"
+                    Padding="3" Grid.Column="2"
+                    BackgroundColor="Gray">
+            <Editor x:Name="txtObservaciones" 
+                AutoSize="TextChanges"
+                HeightRequest="100"  FontSize="22" BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White" />
+        </Frame>
+
+
+        <!-- Botón Guardar -->
+        <Button Text="Guardar" 
+                Clicked="OnGuardarClicked"  BackgroundColor="Green" Margin="5,40" FontSize="22" BorderColor="White" />
+        <Button x:Name="btnRegresar" Clicked="btnRegresar_Clicked" Text="Regresar" Margin="0,0,0,30" FontSize="22" BackgroundColor="Red" BorderColor="White"/>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refaccionaria_los_Mochis.Pages.Reportes.VerificarCodigoBarras"
+             Title="VerificarCodigoBarras"
+             BackgroundColor="#124734">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout x:Name="CardContainer" Padding="10">
+                
+            </StackLayout>
+            <Button
+          x:Name="btnRegresar"
+          Clicked="btnRegresar_Clicked"
+          Text="Regresar"
+           BackgroundColor="Gray"
+           TextColor="White"
+           BorderColor="#FCC208"
+           BorderWidth="2"
+           CornerRadius="5"
+           Margin="10,30" />
+        </StackLayout>
+        
+    </ScrollView>
+</ContentPage>
