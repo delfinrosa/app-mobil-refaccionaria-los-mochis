@@ -29,15 +29,6 @@ C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Ref
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\f\MaterialIcons-Regular.ttf
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable\ic_generarbarcode.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable\ic_generarqr.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable\ic_leerbarcode.png
-C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable\ic_phonereader.png
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\drawable\logo_musculoso_circular.png
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\icono.xml
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\icono_round.xml
@@ -1150,3 +1141,4 @@ C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Ref
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\RefaccionariaLosMochis\Segunda Pantalla\Segunda Pantalla\Segunda Pantalla\Refaccionaria los Mochis\obj\Debug\net8.0-android\Refaccionaria los Mochis.sourcelink.json

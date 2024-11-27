@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|c:\\refaccionarialosmochis\\segunda pantalla\\segunda pantalla\\segunda pantalla\\refaccionaria los mochis\\pages\\crearproducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|solutionrelative:pages\\crearproducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|c:\\refaccionarialosmochis\\segunda pantalla\\segunda pantalla\\segunda pantalla\\refaccionaria los mochis\\pages\\crearproducto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|solutionrelative:pages\\crearproducto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|c:\\refaccionarialosmochis\\segunda pantalla\\segunda pantalla\\segunda pantalla\\refaccionaria los mochis\\pages\\pdf\\menu\\visualizapdf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|solutionrelative:pages\\pdf\\menu\\visualizapdf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|c:\\refaccionarialosmochis\\segunda pantalla\\segunda pantalla\\segunda pantalla\\refaccionaria los mochis\\pages\\crearproducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|solutionrelative:pages\\crearproducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|c:\\refaccionarialosmochis\\segunda pantalla\\segunda pantalla\\segunda pantalla\\refaccionaria los mochis\\pages\\pdf\\menu\\principalpdf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|solutionrelative:pages\\pdf\\menu\\principalpdf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|c:\\refaccionarialosmochis\\segunda pantalla\\segunda pantalla\\segunda pantalla\\refaccionaria los mochis\\pages\\pdf\\menu\\principalpdf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|solutionrelative:pages\\pdf\\menu\\principalpdf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|c:\\refaccionarialosmochis\\segunda pantalla\\segunda pantalla\\segunda pantalla\\refaccionaria los mochis\\pages\\reportes\\reportenoparteboton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62651511-04C7-49FC-9958-62E7A922FAFB}|Refaccionaria los Mochis.csproj|solutionrelative:pages\\reportes\\reportenoparteboton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,66 +47,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CrearProducto.xaml",
-              "DocumentMoniker": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\CrearProducto.xaml",
-              "RelativeDocumentMoniker": "Pages\\CrearProducto.xaml",
-              "ToolTip": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\CrearProducto.xaml*",
-              "RelativeToolTip": "Pages\\CrearProducto.xaml*",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAswJQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-22T22:46:25.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CrearProducto.xaml.cs",
               "DocumentMoniker": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\CrearProducto.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\CrearProducto.xaml.cs",
               "ToolTip": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\CrearProducto.xaml.cs*",
               "RelativeToolTip": "Pages\\CrearProducto.xaml.cs*",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwEsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T22:45:11.189Z",
+              "WhenOpened": "2024-11-26T18:17:37.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrearProducto.xaml",
+              "DocumentMoniker": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\CrearProducto.xaml",
+              "RelativeDocumentMoniker": "Pages\\CrearProducto.xaml",
+              "ToolTip": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\CrearProducto.xaml*",
+              "RelativeToolTip": "Pages\\CrearProducto.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T18:17:22.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VisualizaPDF.xaml.cs",
-              "DocumentMoniker": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\PDF\\Menu\\VisualizaPDF.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PDF\\Menu\\VisualizaPDF.xaml.cs",
-              "ToolTip": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\PDF\\Menu\\VisualizaPDF.xaml.cs",
-              "RelativeToolTip": "Pages\\PDF\\Menu\\VisualizaPDF.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAmwDUAAAAQAAAAAAAAAA==",
+              "Title": "ReporteNoParteBoton.xaml.cs",
+              "DocumentMoniker": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\Reportes\\ReporteNoParteBoton.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Reportes\\ReporteNoParteBoton.xaml.cs",
+              "ToolTip": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\Reportes\\ReporteNoParteBoton.xaml.cs",
+              "RelativeToolTip": "Pages\\Reportes\\ReporteNoParteBoton.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwLwAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T23:11:29.694Z",
+              "WhenOpened": "2024-11-25T18:33:33.856Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PrincipalPDF.xaml.cs",
-              "DocumentMoniker": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\PDF\\Menu\\PrincipalPDF.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PDF\\Menu\\PrincipalPDF.xaml.cs",
-              "ToolTip": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\PDF\\Menu\\PrincipalPDF.xaml.cs",
-              "RelativeToolTip": "Pages\\PDF\\Menu\\PrincipalPDF.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T23:11:26.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PrincipalPDF.xaml",
-              "DocumentMoniker": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\PDF\\Menu\\PrincipalPDF.xaml",
-              "RelativeDocumentMoniker": "Pages\\PDF\\Menu\\PrincipalPDF.xaml",
-              "ToolTip": "C:\\RefaccionariaLosMochis\\Segunda Pantalla\\Segunda Pantalla\\Segunda Pantalla\\Refaccionaria los Mochis\\Pages\\PDF\\Menu\\PrincipalPDF.xaml",
-              "RelativeToolTip": "Pages\\PDF\\Menu\\PrincipalPDF.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T23:11:18.535Z"
             }
           ]
         }

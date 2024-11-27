@@ -1,6 +1,8 @@
 using CapaEntidad;
 using Refaccionaria_los_Mochis.Generic;
 using System.Collections.ObjectModel;
+using Refaccionaria_los_Mochis.Pages.Detalles;
+
 namespace Refaccionaria_los_Mochis.Pages.Reportes;
 
 
@@ -210,6 +212,8 @@ public partial class ReporteProductosRack : ContentPage
 
                             // Agregar el StackLayout al contenedor
                             noParteStackLayout.Children.Add(stackLayout);
+                            SetMarca(noParteButton, descripcionMarca);
+
                             await Task.Delay(200);
                         }
                     }
@@ -248,7 +252,7 @@ public partial class ReporteProductosRack : ContentPage
         var numeroParte = button.Text;
         var marca = GetMarca(button);
 
-        var url = $"http://{IP.SERVIDOR}:5210/Productos/ObtenerNumerosParteRack?noparte={numeroParte}&marca={marca}";
+        var url = $"http://{IP.SERVIDOR}:5210/Productos/SeleccionarNoparteMarca?noparte={numeroParte}&marca={marca}";
         var producto = await Http.Get(url);
 
         if (producto != null && producto.Descripcion != null)
@@ -258,8 +262,8 @@ public partial class ReporteProductosRack : ContentPage
                     { "producto", producto }
                 };
 
-            //var detallesPage = new DetalleProductoNoParteMarca(navigationParameter);
-            //App.Current.MainPage = detallesPage;
+            var detallesPage = new DetalleProductoNoParteMarca(navigationParameter);
+            App.Current.MainPage = detallesPage;
         }
         else
         {

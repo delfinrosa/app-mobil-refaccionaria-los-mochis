@@ -61,7 +61,7 @@
                     Margin="20,10"
                     Padding="3"
                     BackgroundColor="Gray">
-                    <Entry x:Name="BusquedaLineaEntry" Text="IGNICION" Placeholder="Ingrese término de búsqueda" Grid.Column="0" FontSize="22"  BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"/>
+                    <Entry x:Name="BusquedaLineaEntry" Text="ELECTRICO" Placeholder="Ingrese término de búsqueda" Grid.Column="0" FontSize="22"  BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"/>
                 </Frame>
                 <Button x:Name="BtnLineaBusqueda" Text="Buscar" Clicked="BtnLineaBusqueda_Clicked" Grid.Column="1" FontSize="22"  BackgroundColor="Gray" TextColor="White" Margin="8" BorderColor="#FCC208"/>
                 <Button x:Name="BtnLineaLimpiar" Text="Limpiar" Clicked="BtnLineaLimpiar_Clicked" Grid.Column="2" FontSize="22"  BackgroundColor="Gray" TextColor="White" Margin="8" BorderColor="#FCC208"/>
@@ -83,7 +83,7 @@
                     Margin="20,10"
                     Padding="3"
                     BackgroundColor="Gray">
-                    <Entry x:Name="DescripcionEntry" Text="" Placeholder="Ingrese la descripción del producto" Margin="5" FontSize="22" BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"/>
+                    <Entry x:Name="DescripcionEntry" Text="CABLE DE BUJIAS" Placeholder="Ingrese la descripción del producto" Margin="5" FontSize="22" BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"/>
                 </Frame>
                 <Button x:Name="BtnDescripcionLIMPIAR" Text="LIMPIAR" Clicked="BtnDescripcionLIMPIAR_Clicked" Grid.Column="1" FontSize="22"  BackgroundColor="Gray" TextColor="White" Margin="8" BorderColor="#FCC208"/>
             </Grid>
@@ -146,7 +146,7 @@
                     Margin="20,10"
                     Padding="3"
                     BackgroundColor="Gray">
-                    <Entry x:Name="BusquedaRackEntry" Text="J1" Placeholder="Ingrese Rack" Grid.Column="0" FontSize="22" BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"/>
+                    <Entry x:Name="BusquedaRackEntry" Text="L2" Placeholder="Ingrese Rack" Grid.Column="0" FontSize="22" BackgroundColor="Gray" TextColor="White" Background="Gray" PlaceholderColor="White"/>
                 </Frame>
                 <Button x:Name="BtnRackBusqueda" Text="Buscar" Clicked="BtnRackBusqueda_Clicked" Grid.Column="1" FontSize="22"  BackgroundColor="Gray" TextColor="White" Margin="8" BorderColor="#FCC208"/>
                 <Button x:Name="BtnLineaRack" Text="Limpiar" Clicked="BtnLineaRack_Clicked" Grid.Column="2" FontSize="22" BackgroundColor="Gray" TextColor="White" Margin="8" BorderColor="#FCC208"/>

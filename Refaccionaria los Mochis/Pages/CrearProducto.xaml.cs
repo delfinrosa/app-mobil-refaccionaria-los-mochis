@@ -67,13 +67,13 @@ public partial class CrearProducto : ContentPage
         {
             ProductoActual.oLinea = new Linea();
         }
-        ProductoActual.oLinea.IdLinea = 16;
+        ProductoActual.oLinea.IdLinea = 14;
 
         if (ProductoActual.oRack == null)
         {
             ProductoActual.oRack = new AlmacenRack();
         }
-        ProductoActual.oRack.RackId = 22;
+        ProductoActual.oRack.RackId = 28;
 
         var url = $"http://{IP.SERVIDOR}:5210/AlmacenRackSeccion/ObtenerRackSeccion?rackId={ProductoActual.oRack.RackId}";
         var marca = await Http.GetAlmacenRackSeccion(url);

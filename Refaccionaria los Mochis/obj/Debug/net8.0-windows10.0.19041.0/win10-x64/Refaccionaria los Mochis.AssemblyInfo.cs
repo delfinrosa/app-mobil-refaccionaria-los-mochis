@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Refaccionaria los Mochis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cbc5f297a3ee7752e08b80dc11fa9e6617983205")]
 [assembly: System.Reflection.AssemblyProductAttribute("Refaccionaria los Mochis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Refaccionaria los Mochis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
